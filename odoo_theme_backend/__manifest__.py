@@ -8,4 +8,7 @@
     'data': [
         'views/assets.xml',
     ],
+    'author': 'Haresh Kansara',
+    'maintainer': 'Haresh Kansara',
+    'support': 'hareshkansara00@gmail.com',
 }

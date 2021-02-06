@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="footer_custom_inh" inherit_id="website.footer_custom">
+            <!-- Code to Hide Default Website Footer Of Odoo -->
+            <xpath expr="//div[@id='footer']" position="attributes">
+                <attribute name="style">display:none !important;</attribute>
+            </xpath>
+            <!-- Code To Add New Customised Website Footer -->
+            <xpath expr="//div[@id='footer']" position="after">
+                <section class="s_text_block">
+                    <div class="container">
+                        <center style="background-color:green;">
+                            This is the simple footer design. Here you can add your style to beautify more.
+                        </center>
+                    </div>
+                </section>
+            </xpath>
+        </template>
+    </data>
+</odoo>
